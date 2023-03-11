@@ -1,41 +1,42 @@
 greetings = [
-  "Привет, дорогой друг. Отвечаю на твои воросы.",
-  "Кто вопрошает, тот получит ответ:",
-  "Здравствуй, смертный. Сегодня для тебя такой ответ:"
+  "Ask a question and I'll give you an answer.",
+  "Greetings! What's your question?",
+  "I am the Magic 8 Ball. Ask me anything.",
+  "Hello! Pose a query and I'll reveal your fate."
 ]
 
 answers = [
-  # Положительные
-  "Бесспорно",
-  "Предрешено",
-  "Никаких сомнений",
+  # Positive
+  "It is certain",
+  "It is decidedly so",
+  "Without a doubt",
   "Определённо да",
-  "Можешь быть уверен в этом",
+  "Yes definitely",
 
-  # Нерешительно положительные
-  "Мне кажется — «да»",
-  "Вероятнее всего",
-  "Хорошие перспективы",
-  "Знаки говорят — «да»",
-  "Да",
+  # Hesitantly positive
+  " As I see it, ye",
+  "Most likely.",
+  "Outlook good",
+  "Signs point to yes",
+  "Yes",
 
-  # Нейтральные
-  "Пока не ясно, попробуй снова",
-  "Спроси позже",
-  "Лучше не рассказывать",
-  "Сейчас нельзя предсказать",
-  "Сконцентрируйся и спроси опять",
+  # Neutral
+  "Reply hazy, try again",
+  "Ask again later",
+  "Better not tell you now",
+  "Cannot predict now",
+  "Concentrate and ask again",
 
-  # Отрицательные
-  "Даже не думай",
-  "Мой ответ — «нет»",
-  "По моим данным — «нет»",
-  "Перспективы не очень хорошие",
-  "Весьма сомнительно"
+  # Negative
+  "Don't count on it",
+  "My reply is no",
+  "My sources say no",
+  " Outlook not so good",
+  "Very doubtful"
 ]
 
 puts greetings.sample
 
 sleep 2
 puts
-puts "Знаки говорят - #{answers.sample}"
+puts "Signs point - #{answers.sample}"
